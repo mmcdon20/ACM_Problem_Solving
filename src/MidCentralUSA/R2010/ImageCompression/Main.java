@@ -146,6 +146,6 @@ public class Main {
     }
 
     public boolean isEnd(String input) {
-        return input.equals(END);
+        return input.equals(END) && W == 0 && T == 0;
     }
 }
