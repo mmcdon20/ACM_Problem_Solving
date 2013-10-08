@@ -40,8 +40,6 @@ public class Main {
         boolean keepGoing = false;
         int ln = 0;
 
-
-
         do {
             keepGoing = false;
             int start = 0;
@@ -74,15 +72,9 @@ public class Main {
             }
         } while (keepGoing);
 
-
         for (String s : result) {
             System.out.print(s);
         }   System.out.println();
-        /*
-        for (int s : pattern) {
-            System.out.print(s);
-        }   System.out.println();
-        */
     }
 
     public void setup() {
