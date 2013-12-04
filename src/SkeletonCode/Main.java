@@ -3,7 +3,7 @@ package SkeletonCode;
 import java.util.*;
 
 public class Main {
-    Scanner scanner;
+    Scanner scanner = new Scanner(System.in);
     public static String END = "#";
 
     public void readInput(String input) {
@@ -12,10 +12,6 @@ public class Main {
 
     public void setup() {
 
-    }
-
-    public Main() throws Exception {
-        scanner = new Scanner(System.in);
     }
 
     public static void main(String[] args) throws Exception {
